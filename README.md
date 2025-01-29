@@ -102,8 +102,6 @@ function setup() {
     foodCalories[day][food] += calories;
   }
 
-  console.log('Day Calories:', dayCalories);
-  console.log('Food Calories:', foodCalories);
 
   // Define colors for different foods
   let foodColors = {
